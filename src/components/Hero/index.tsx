@@ -1,41 +1,52 @@
-import { Game } from '../../Pages/Home'
 import Button from '../Button'
 import Tag from '../Tag'
-import { formataPreco } from '../ProdutsList'
+import { parceToBrl } from '../../Utils'
 
-import { Banner2, Infos } from './styles'
+import * as S from './styles'
+import { useDispatch } from 'react-redux'
+
+import { add, open } from '../../Store/Reducers/cart'
 
 type Props = {
   game: Game
 }
 
-const Hero = ({ game }: Props) => (
-  <Banner2 style={{ backgroundImage: `url(${game.media.cover})` }}>
-    <div className="container">
-      <div>
-        <Tag>{game.details.category}</Tag>
-        <Tag>{game.details.system}</Tag>
-      </div>
-      <Infos>
-        <h2>Hogwarts Legacy</h2>
-        <p>
-          {game.prices.discount && (
-            <span>De {formataPreco(game?.prices.old)}</span>
+const Hero = ({ game }: Props) => {
+  const dispatch = useDispatch()
+
+  const addToCart = () => {
+    dispatch(add(game))
+    dispatch(open())
+  }
+  return (
+    <S.Banner2 style={{ backgroundImage: `url(${game.media.cover})` }}>
+      <div className="container">
+        <div>
+          <Tag>{game.details.category}</Tag>
+          <Tag>{game.details.system}</Tag>
+        </div>
+        <S.Infos>
+          <h2>Hogwarts Legacy</h2>
+          <p>
+            {game.prices.discount && (
+              <span>De {parceToBrl(game?.prices.old)}</span>
+            )}
+            {game.prices.current && <>Por {parceToBrl(game.prices.current)}</>}
+          </p>
+          {game.prices.current && (
+            <Button
+              type="button"
+              title="Clique aqui para adicionar"
+              variant="primary"
+              onClick={addToCart}
+            >
+              Adicionar ao carrinho
+            </Button>
           )}
-          {game.prices.current && <>Por {formataPreco(game.prices.current)}</>}
-        </p>
-        {game.prices.current && (
-          <Button
-            type="button"
-            title="Clique aqui para adicionar"
-            variant="primary"
-          >
-            Adicionar ao carrinho
-          </Button>
-        )}
-      </Infos>
-    </div>
-  </Banner2>
-)
+        </S.Infos>
+      </div>
+    </S.Banner2>
+  )
+}
 
 export default Hero

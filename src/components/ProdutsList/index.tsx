@@ -1,21 +1,18 @@
-import { Game } from '../../Pages/Home'
+import { parceToBrl } from '../../Utils'
+import Loader from '../Loader'
 import Product from '../Products'
-import { List, Container } from './styles'
+
+import * as S from './styles'
 
 export type Props = {
   title: string
   background: 'black' | 'gray'
-  games: Game[]
+  games?: Game[]
+  id?: string
+  isLoading: boolean
 }
 
-export const formataPreco = (preco = 0) => {
-  return new Intl.NumberFormat('pt-BR', {
-    style: 'currency',
-    currency: 'BRL'
-  }).format(preco)
-}
-
-const ProductsList = ({ background, title, games }: Props) => {
+const ProductsList = ({ background, title, games, id, isLoading }: Props) => {
   const getGamesTag = (game: Game) => {
     const tags = []
 
@@ -28,33 +25,38 @@ const ProductsList = ({ background, title, games }: Props) => {
     }
 
     if (game.prices.current) {
-      tags.push(formataPreco(game.prices.current))
+      tags.push(parceToBrl(game.prices.current))
     }
 
     return tags
   }
 
+  if (isLoading) {
+    return <Loader />
+  }
+
   return (
-    <Container background={background}>
+    <S.Container id={id} background={background}>
       <div className="container">
         <h2>{title}</h2>
-        <List>
-          {games.map((game) => (
-            <li key={game.id}>
-              <Product
-                id={game.id}
-                category={game.details.category}
-                description={game.description}
-                image={game.media.thumbnail}
-                infos={getGamesTag(game)}
-                system={game.details.system}
-                title={game.name}
-              />
-            </li>
-          ))}
-        </List>
+        <S.List>
+          {games &&
+            games.map((game) => (
+              <li key={game.id}>
+                <Product
+                  id={game.id}
+                  category={game.details.category}
+                  description={game.description}
+                  image={game.media.thumbnail}
+                  infos={getGamesTag(game)}
+                  system={game.details.system}
+                  title={game.name}
+                />
+              </li>
+            ))}
+        </S.List>
       </div>
-    </Container>
+    </S.Container>
   )
 }
 
