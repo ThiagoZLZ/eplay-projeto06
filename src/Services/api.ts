@@ -40,7 +40,7 @@ type PurchaseResponse = {
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:3001'
+    baseUrl: 'https://eplay-projeto06.onrender.com'
   }),
   endpoints: (builder) => ({
     getFeaturedGame: builder.query<Game, void>({
