@@ -1,0 +1,300 @@
+{
+  "destaque": {
+    "id": 1,
+    "name": "Cyberpunk 20777",
+    "description": "Um RPG futurista em mundo aberto.",
+    "prices": {
+      "old": 299,
+      "current": 199
+    },
+    "details": {
+      "category": "RPG",
+      "system": "PC",
+      "developer": "CD Projekt",
+      "publisher": "CD Projekt",
+      "languages": ["Português", "Inglês"]
+    },
+    "media": {
+      "thumbnail": "/images/cyberpunk2077.jpg",
+      "cover": "/images/cyberpunk2077.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "url": "/images/cyberpunk2077.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+  "promocoes": [
+    {
+      "id": 1,
+      "name": "Cyberpunk 2077",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 199
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/cyberpunk2077.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "GTA 4",
+      "description": "Jogo de mundo aberto",
+      "prices": {
+        "old": 299,
+        "current": 89
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/gta4.jpg",
+        "cover": "/images/gta4.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/gta4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hogwarts_Legacy",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 129
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/Hogwarts_Legacy.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Hogwarts_Legacy",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 129
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/Hogwarts_Legacy.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    }
+  ],
+
+
+
+  "em-breve": [
+    {
+      "id": 1,
+      "name": "Cyberpunk 2077",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 199
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/cyberpunk2077.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "GTA 4",
+      "description": "Jogo de mundo aberto",
+      "prices": {
+        "old": 299,
+        "current": 89
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/gta4.jpg",
+        "cover": "/images/gta4.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/gta4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hogwarts_Legacy",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 129
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/Hogwarts_Legacy.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Hogwarts_Legacy",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 129
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/Hogwarts_Legacy.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    }
+  ],
+  "acao": [],
+  "esportes": [],
+  "simulacao": [],
+  "luta": [],
+  "rpg": [],
+
+  "jogos": [
+    {
+      "id": 1,
+      "name": "Cyberpunk 2077",
+      "description": "Um RPG futurista em mundo aberto.",
+      "prices": {
+        "old": 299,
+        "current": 199
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/cyberpunk2077.jpg",
+        "cover": "/images/cyberpunk2077.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/Cyberpunk-game.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/images/Cyberpunk-game2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/images/cyberpunk03.webp"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 2,
+      "name": "GTA4",
+      "description": "GTA 4 ",
+      "prices": {
+        "old": 299,
+        "current": 89
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/gta4.jpg",
+        "cover": "/images/gta4.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/gta4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hogwarts_Legacy",
+      "description": "Um RPG futurista em mundo aberto.????",
+      "prices": {
+        "old": 299,
+        "current": 129
+      },
+      "details": {
+        "category": "RPG",
+        "system": "PC",
+        "developer": "CD Projekt",
+        "publisher": "CD Projekt",
+        "languages": ["Português", "Inglês"]
+      },
+      "media": {
+        "thumbnail": "/images/Hogwarts_Legacy.jpg",
+        "cover": "/images/Hogwarts_Legacy.jpg"
+      }
+    }
+  ]
+}
