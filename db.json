@@ -100,26 +100,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 4,
-      "name": "Hogwarts_Legacy",
-      "description": "Um RPG futurista em mundo aberto.????",
-      "prices": {
-        "old": 299,
-        "current": 129
-      },
-      "details": {
-        "category": "RPG",
-        "system": "PC",
-        "developer": "CD Projekt",
-        "publisher": "CD Projekt",
-        "languages": ["Português", "Inglês"]
-      },
-      "media": {
-        "thumbnail": "/images/Hogwarts_Legacy.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
-      }
     }
   ],
 
@@ -128,7 +108,7 @@
   "em-breve": [
     {
       "id": 1,
-      "name": "Cyberpunk 2077",
+      "name": "Diablo IV",
       "description": "Um RPG futurista em mundo aberto.????",
       "prices": {
         "old": 299,
@@ -142,8 +122,8 @@
         "languages": ["Português", "Inglês"]
       },
       "media": {
-        "thumbnail": "/images/cyberpunk2077.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
+        "thumbnail": "/images/diablo.png",
+        "cover": "/images/diablo.png"
       }
     },
     {
@@ -196,26 +176,6 @@
             "url": "/images/Hogwarts_Legacy.jpg"
           }
         ]
-      }
-    },
-    {
-      "id": 4,
-      "name": "Hogwarts_Legacy",
-      "description": "Um RPG futurista em mundo aberto.????",
-      "prices": {
-        "old": 299,
-        "current": 129
-      },
-      "details": {
-        "category": "RPG",
-        "system": "PC",
-        "developer": "CD Projekt",
-        "publisher": "CD Projekt",
-        "languages": ["Português", "Inglês"]
-      },
-      "media": {
-        "thumbnail": "/images/Hogwarts_Legacy.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
       }
     }
   ],
