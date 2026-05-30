@@ -19,6 +19,8 @@ const Product = () => {
     return <Loader />
   }
 
+  console.log(game)
+
   return (
     <>
       <Hero game={game} />

@@ -92,7 +92,13 @@
       },
       "media": {
         "thumbnail": "/images/Hogwarts_Legacy.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
+        "cover": "/images/Hogwarts_Legacy.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/Hogwarts_Legacy.jpg"
+          }
+        ]
       }
     },
     {
@@ -183,7 +189,13 @@
       },
       "media": {
         "thumbnail": "/images/Hogwarts_Legacy.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
+        "cover": "/images/Hogwarts_Legacy.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/Hogwarts_Legacy.jpg"
+          }
+        ]
       }
     },
     {
@@ -293,7 +305,13 @@
       },
       "media": {
         "thumbnail": "/images/Hogwarts_Legacy.jpg",
-        "cover": "/images/Hogwarts_Legacy.jpg"
+        "cover": "/images/Hogwarts_Legacy.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/images/Hogwarts_Legacy.jpg"
+          }
+        ]
       }
     }
   ]
