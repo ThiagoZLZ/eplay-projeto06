@@ -26,7 +26,7 @@ const Hero = ({ game }: Props) => {
           <Tag>{game.details.system}</Tag>
         </div>
         <S.Infos>
-          <h2>Cyberpunk 2077</h2>
+          <h2>{game.name}</h2>
           <p>
             {game.prices.discount && (
               <span>De {parceToBrl(game?.prices.old)}</span>
